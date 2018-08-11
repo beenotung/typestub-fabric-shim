@@ -1,0 +1,17 @@
+{
+  "name": "typestub-fabric-shim",
+  "version": "3.0.2",
+  "description": "The type definition for fabric-shim",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "@theledger/fabric-chaincode-utils": "^3.0.2",
+    "fabric-shim": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.2.7",
+    "@types/node": "^10.5.7",
+    "@types/winston": "^2.3.9"
+  }
+}
